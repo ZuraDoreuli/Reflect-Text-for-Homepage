@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  margin-top: 30px;
+  color: #000;
+  font-size: 70px;
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0000007a);
+}
